@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #0073e6;
+    background-color: #ff0000;
     color: white;
     padding: 20px;
     text-align: center;
@@ -16,8 +16,7 @@ body {
     overflow: hidden;
     background-color: #333;
     display: flex;
-  	justify-content:center;
-
+    justify-content: center;
 }
 
 .topnav ul {
@@ -51,7 +50,8 @@ body {
 
 .main {
     flex: 70%;
-    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .card {
@@ -81,8 +81,8 @@ input[type=text], input[type=password], input[type=email], input[type=tel] {
 }
 
 button[type=submit] {
-    background-color: #0073e6;
-    color: white;
+    background-color: #dadada;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -91,7 +91,8 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-    background-color: #005bb5;
+    background-color: #eeeeee;
+    
 }
 
 .footer {
