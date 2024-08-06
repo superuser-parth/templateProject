@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: auto;
+            padding: auto;
+            
+        }
+        header {
+            background-color:#333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width:auto;
+        }
+	     .welcome {
+	    padding: 10px;
+	    text-align: center;
+	    background: #ff0000;
+	    width: auto;
+	    margin: auto;
+	    color: white;
+	  }
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: rgb(198, 0, 0);
+        }
+        #registerButton
+        {
+        	display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+         
+        }
+        #registerButton button
+        {
+        	 padding: 10px 20px;
+            background-color: #ff0000;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center; /* Ensure text inside button is centered */
+        }
+        
+        #registerButton button:hover {
+            background-color:rgb(198, 0, 0);
+        }
+        section {
+            padding: 20px;
+        }
+        #services {
+            display: flex;
+            justify-content: space-around;
+        }
+        #services div {
+            text-align: center;
+            width: 30%;
+        }
+        #services img {
+            height: 100px;
+        }
+        #testimonials blockquote {
+            border-left: 4px solid #00509e;
+            padding-left: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color:white;
+        }
+        footer a {
+            color: rgb(198, 0, 0);
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        
+    .security-badge {
+        display: block;
+        float: left; /* Allows text to wrap around the image */
+        margin: 0 20px 20px 0; /* Margin to create space around the image */
+        width: 200px; /* Increase size as needed */
+        height: auto; /* Maintains aspect ratio */
+    }
+    .centered-image {
+            display: block;
+            margin: 0 auto; /* Center horizontally */
+            max-width: 100%; /* Ensure image scales down within container */
+            height: auto; /* Maintain aspect ratio */
+        }
+
