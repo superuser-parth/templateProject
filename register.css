@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #pop {
+  
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #333;
+
+    border-radius: 10px; 
+
+    color: white;
+  }
+    
+  /* Style the top navigation bar */
+ 
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #ff0000; /* Slightly darker red */
+    border-radius: 10px; 
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.topnav a:hover {
+    background-color: #ff4d4d; /* Darker red on hover */
+    color: #ffffff;
+}
+
+.topnav a.active {
+    background-color: #cc0000; /* Darker shade for the active link */
+    color: #ffffff;
+    border-radius: 8px;
+}
+  
+  
+  .topnav ul {
+    list-style-type: none;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    height: 70px;
+  }
+ 
+  .main {   
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .cc {
+    float: left;
+    padding: 5px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+ button {
+    background-color: #ff0000; /* Softer red color */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Slightly larger font size */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover and click effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    background-color: #ff3333; /* Darker red on hover */
+    opacity: 0.9;
+    transform: scale(1.02); /* Slightly enlarge button on hover */
+}
+
+/* Add a click effect for buttons */
+button:active {
+    background-color: #e60000; /* Even darker red on click */
+    transform: scale(0.98); /* Slightly shrink button on click */
+}
+
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    width: 350px;
+    margin: auto;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  img {
+    width: auto;
+    max-width: 185px;
+    height: auto;
+  }
